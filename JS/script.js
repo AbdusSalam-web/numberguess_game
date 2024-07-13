@@ -56,6 +56,7 @@ start.addEventListener("click", () => {
               $playerThreeName.innerHTML = `Player three name: ${input.value}`;
               input.value = "";
               body.removeChild(inputFrom);
+              //new code will be added from here
             } else {
               inputFrom.appendChild(errorMessage);
               errorMessage.className = "errorMessage";
